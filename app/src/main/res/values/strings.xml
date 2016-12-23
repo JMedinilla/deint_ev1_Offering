@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Offering_JMedinilla</string>
+    <string name="contentdescription">contentDescription</string>
+    <string name="manage_txtName">Nombre</string>
+    <string name="manage_txtShop">Tienda</string>
+    <string name="manage_txtDate">Fecha</string>
+    <string name="manage_txtType">Tipo</string>
+    <string name="manage_txtImportance">Importancia</string>
+    <string name="manage_btnOk">Añadir</string>
+    <string name="main_txtTitle">Configuracion Offering</string>
+    <string name="main_txtHome">Mostrar ofertas de hogar:</string>
+    <string name="main_txtElectronics">Mostrar ofertas de electronica:</string>
+    <string name="main_txtSports">Mostrar ofertas de deportes:</string>
+    <string name="main_txtImportance">Mostrar importancia de las ofertas:</string>
+    <string name="main_btnOk">Aceptar</string>
+    <string name="list_activity_dialog_title">Offering</string>
+    <string name="list_activity_dialog_message">Aplicación desarrollada por Javier Medinilla</string>
+    <string name="list_activity_dialog_button">Aceptar</string>
+    <string name="login_choice">Debes seleccionar al menos un tipo de oferta</string>
+    <string name="manage_empty">Algúno de los campos está vacío</string>
+    <string name="manage_exists">El producto ya existe</string>
+    <string name="manage_added">Añadido</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_manage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="exam.jmedinilla.offering_jmedinilla.ManageActivity">
+
+    <TextView
+        android:id="@+id/manage_txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/manage_txtName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/manage_edtName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/manage_txtName"
+        android:layout_toEndOf="@id/manage_txtName"
+        android:inputType="text"
+        android:labelFor="@+id/manage_edtName" />
+
+    <TextView
+        android:id="@+id/manage_txtShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage_txtName"
+        android:layout_margin="10dp"
+        android:text="@string/manage_txtShop"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/manage_edtShop"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/manage_txtShop"
+        android:layout_toEndOf="@id/manage_txtShop"
+        android:inputType="text"
+        android:labelFor="@+id/manage_edtShop" />
+
+    <TextView
+        android:id="@+id/manage_txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage_txtShop"
+        android:layout_margin="10dp"
+        android:text="@string/manage_txtDate"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/manage_edtDate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/manage_txtDate"
+        android:layout_toEndOf="@id/manage_txtDate"
+        android:inputType="text"
+        android:labelFor="@+id/manage_edtDate" />
+
+    <TextView
+        android:id="@+id/manage_txtType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage_txtDate"
+        android:layout_margin="10dp"
+        android:text="@string/manage_txtType"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/manage_spinType"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/manage_txtType"
+        android:layout_toEndOf="@id/manage_txtType" />
+
+    <TextView
+        android:id="@+id/manage_txtImportance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage_txtType"
+        android:layout_margin="10dp"
+        android:text="@string/manage_txtImportance"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/manage_spinImportance"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/manage_txtImportance"
+        android:layout_toEndOf="@id/manage_txtImportance" />
+
+    <Button
+        android:id="@+id/manage_btnOk"
+        style="@style/UglyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/manage_txtImportance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="@string/manage_btnOk" />
+</RelativeLayout>

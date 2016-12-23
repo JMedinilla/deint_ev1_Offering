@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="exam.jmedinilla.offering_jmedinilla.MainActivity">
+
+    <TextView
+        android:id="@+id/main_txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/main_txtTitle"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/main_txtHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_txtTitle"
+        android:layout_margin="20dp"
+        android:text="@string/main_txtHome" />
+
+    <CheckBox
+        android:id="@+id/main_chbHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/main_txtHome"
+        android:layout_toEndOf="@id/main_txtHome" />
+
+    <TextView
+        android:id="@+id/main_txtElectronics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_txtHome"
+        android:layout_margin="20dp"
+        android:text="@string/main_txtElectronics" />
+
+    <CheckBox
+        android:id="@+id/main_chbElectronics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/main_txtElectronics"
+        android:layout_toEndOf="@id/main_txtElectronics" />
+
+    <TextView
+        android:id="@+id/main_txtSports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_txtElectronics"
+        android:layout_margin="20dp"
+        android:text="@string/main_txtSports" />
+
+    <CheckBox
+        android:id="@+id/main_chbSports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/main_txtSports"
+        android:layout_toEndOf="@id/main_txtSports" />
+
+    <LinearLayout
+        android:id="@+id/main_divider"
+        style="@style/LayoutDivider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/main_txtSports"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/main_txtImportance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_divider"
+        android:layout_margin="20dp"
+        android:text="@string/main_txtImportance" />
+
+    <CheckBox
+        android:id="@+id/main_chbImportance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/main_txtImportance"
+        android:layout_toEndOf="@id/main_txtImportance" />
+
+    <Button
+        android:id="@+id/main_btnOk"
+        style="@style/UglyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_txtImportance"
+        android:layout_centerHorizontal="true"
+        android:text="@string/main_btnOk" />
+</RelativeLayout>

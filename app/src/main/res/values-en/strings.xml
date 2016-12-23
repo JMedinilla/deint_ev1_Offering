@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="contentdescription">contentDescription</string>
+    <string name="list_activity_dialog_button">Accept</string>
+    <string name="list_activity_dialog_message">Application made by Javier Medinilla</string>
+    <string name="login_choice">You must choose at lest one offer type</string>
+    <string name="main_btnOk">Accept</string>
+    <string name="main_txtElectronics">Show electronics offers:</string>
+    <string name="main_txtHome">Show home offers:</string>
+    <string name="main_txtImportance">Show offer\\\'s importance</string>
+    <string name="main_txtSports">Show sport offers:</string>
+    <string name="main_txtTitle">Offering configuration</string>
+    <string name="manage_btnOk">Add</string>
+    <string name="manage_txtDate">Date</string>
+    <string name="manage_txtImportance">Importance</string>
+    <string name="manage_txtName">Name</string>
+    <string name="manage_txtShop">Shop</string>
+    <string name="manage_txtType">Type</string>
+    <string name="list_activity_dialog_title">Offering</string>
+    <string name="app_name">Offering_JMedinilla</string>
+    <string name="manage_added">Added</string>
+    <string name="manage_empty">Any of the fields is empty</string>
+    <string name="manage_exists">Already exists</string>
+</resources>

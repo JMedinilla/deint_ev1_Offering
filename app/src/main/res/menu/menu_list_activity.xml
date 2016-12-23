@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_list_ordertype"
+        android:icon="@mipmap/ic_order_type"
+        android:title="Order by type"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_list_ordernameasc"
+        android:icon="@mipmap/ic_order_asc"
+        android:title="Order by name (ASC)"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_list_ordernamedesc"
+        android:icon="@mipmap/ic_order_desc"
+        android:title="Order by name (DESC)"
+        app:showAsAction="always" />
+</menu>
